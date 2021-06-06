@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		E12C8055266A45380094DDAE /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C8054266A45380094DDAE /* Test.swift */; };
 		E12C8057266A45990094DDAE /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C8056266A45990094DDAE /* Question.swift */; };
+		E12C805B266A52630094DDAE /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12C805A266A52630094DDAE /* HomeViewRow.swift */; };
+		E162BBA6266D467D00E916C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E162BBA5266D467D00E916C4 /* ContentView.swift */; };
+		E18D51D0266D21C9002558D3 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E18D51CF266D21C9002558D3 /* data.json */; };
 		E1A412B926646AB60078CAF6 /* LearningApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A412B826646AB60078CAF6 /* LearningApp.swift */; };
 		E1A412BB26646AB60078CAF6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A412BA26646AB60078CAF6 /* HomeView.swift */; };
 		E1A412BD26646AB80078CAF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A412BC26646AB80078CAF6 /* Assets.xcassets */; };
 		E1A412C026646AB80078CAF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1A412BF26646AB80078CAF6 /* Preview Assets.xcassets */; };
 		E1A412CD26646BDC0078CAF6 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1A412CC26646BDC0078CAF6 /* ContentModel.swift */; };
-		E1AD542C266A3DC60072907A /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = E1AD542A266A3DC60072907A /* data.json */; };
 		E1AD542D266A3DC60072907A /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = E1AD542B266A3DC60072907A /* style.html */; };
 		E1AD542F266A40050072907A /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD542E266A40050072907A /* Models.swift */; };
 		E1AD5431266A40850072907A /* ContentLearningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AD5430266A40850072907A /* ContentLearningModel.swift */; };
@@ -24,6 +26,9 @@
 /* Begin PBXFileReference section */
 		E12C8054266A45380094DDAE /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		E12C8056266A45990094DDAE /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		E12C805A266A52630094DDAE /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		E162BBA5266D467D00E916C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E18D51CF266D21C9002558D3 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = "../../../../../Downloads/LearningApp-2/LearningApp/Resources/data.json"; sourceTree = "<group>"; };
 		E1A412B526646AB60078CAF6 /* LearningApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearningApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1A412B826646AB60078CAF6 /* LearningApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningApp.swift; sourceTree = "<group>"; };
 		E1A412BA26646AB60078CAF6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -31,7 +36,6 @@
 		E1A412BF26646AB80078CAF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E1A412C126646AB80078CAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E1A412CC26646BDC0078CAF6 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentModel.swift; path = LearningApp/Views/ContentModel.swift; sourceTree = SOURCE_ROOT; };
-		E1AD542A266A3DC60072907A /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = ../../../../../Downloads/LearningApp/LearningApp/Resources/data.json; sourceTree = "<group>"; };
 		E1AD542B266A3DC60072907A /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
 		E1AD542E266A40050072907A /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = SOURCE_ROOT; };
 		E1AD5430266A40850072907A /* ContentLearningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentLearningModel.swift; sourceTree = "<group>"; };
@@ -99,7 +103,7 @@
 		E1A412C826646B780078CAF6 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				E1AD542A266A3DC60072907A /* data.json */,
+				E18D51CF266D21C9002558D3 /* data.json */,
 				E1AD542B266A3DC60072907A /* style.html */,
 			);
 			path = Resources;
@@ -117,6 +121,8 @@
 			isa = PBXGroup;
 			children = (
 				E1A412BA26646AB60078CAF6 /* HomeView.swift */,
+				E162BBA5266D467D00E916C4 /* ContentView.swift */,
+				E12C805A266A52630094DDAE /* HomeViewRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -191,9 +197,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A412C026646AB80078CAF6 /* Preview Assets.xcassets in Resources */,
-				E1AD542C266A3DC60072907A /* data.json in Resources */,
 				E1AD542D266A3DC60072907A /* style.html in Resources */,
 				E1A412BD26646AB80078CAF6 /* Assets.xcassets in Resources */,
+				E18D51D0266D21C9002558D3 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,10 +211,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1A412BB26646AB60078CAF6 /* HomeView.swift in Sources */,
+				E12C805B266A52630094DDAE /* HomeViewRow.swift in Sources */,
 				E12C8057266A45990094DDAE /* Question.swift in Sources */,
 				E1A412B926646AB60078CAF6 /* LearningApp.swift in Sources */,
 				E1AD5431266A40850072907A /* ContentLearningModel.swift in Sources */,
 				E12C8055266A45380094DDAE /* Test.swift in Sources */,
+				E162BBA6266D467D00E916C4 /* ContentView.swift in Sources */,
 				E1A412CD26646BDC0078CAF6 /* ContentModel.swift in Sources */,
 				E1AD542F266A40050072907A /* Models.swift in Sources */,
 				E1AD5433266A41050072907A /* Lesson.swift in Sources */,
